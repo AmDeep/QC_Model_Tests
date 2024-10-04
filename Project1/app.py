@@ -107,12 +107,7 @@ of interest.
 
 A note on predicted pIC50 values: the prediction model was trained with consideration of compounds with pIC50 values >6 as **active** while values <5 as **inactive**.
 
----
-**Acknowledgement**
-- App built in 'python' + 'streamlit' by **Sara Then** with project inspiration and guidance from [Chanin Nantasenamat/Data Professor](http://youtube.com/dataprofessor)'s Bioinformatics series. 
-- Descriptor calculated using [PaDEL-Descriptor](http://www.yapcwsoft.com/dd/padeldescriptor/) 
-- Details of the project and code are available on the github repo (https://github.com/sara-then/HGF-drugdiscovery-project)
----
+
 """)
 
 # sidebar
