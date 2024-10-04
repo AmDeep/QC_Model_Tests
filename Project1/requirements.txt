@@ -1,0 +1,5 @@
+padelpy==0.1.11
+pandas==1.4.2
+Pillow==9.1.1
+streamlit==1.10.0
+scikit-learn==1.1.1
