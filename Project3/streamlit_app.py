@@ -54,17 +54,7 @@ with st.expander('About this app'):
     [Antimicrobial peptides](https://en.wikipedia.org/wiki/Antimicrobial_peptides) (AMPs) are small bioactive drugs, commonly with fewer than 50 amino acids, 
     which have appeared as promising compounds to control infectious disease caused by multi-drug resistant bacteria or superbugs. According to the World Health 
     Organization, suberbugs are one of the [top ten global public health threats facing humanity in this century](https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance), 
-    so it is important to search for AMPs that combat multi-drug resistant bacteria. 
-
-    **AMPredST** is a web application that allows users to predict the antimicrobial activity and general properties of AMPs. The app is based on a [previous project](https://github.com/sayalaruano/CapstoneProject-MLZoomCamp) 
-    that analyzed the best molecular descriptors and machine learning model to predict the antimicrobial activity of AMPs. The best model was `ExtraTreesClassifier` with 
-    max_depth of 50 and n_estimators of 200 as hyperparameters, and `Amino acid Composition` as the molecular descriptors.
-    
-    **Credits**
-    - Developed by [Sebastián Ayala Ruano](https://sayalaruano.github.io/).
-    - This project was inspired by the [notebook](https://github.com/dataprofessor/peptide-ml) and [video](https://www.youtube.com/watch?v=0NrFIGLwW0Q&feature=youtu.be) from [Dataprofessor](https://github.com/dataprofessor) about this topic.
-    - The [datasets](https://biocom-ampdiscover.cicese.mx/dataset), some ideas, and references to compare the performance of the best model were obtained from this [scientific article](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00251).
-      ''')
+    so it is important to search for AMPs that combat multi-drug resistant bacteria.)
 
 # Set the session state to store the peptide sequence
 if 'peptide_input' not in st.session_state:
